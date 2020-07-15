@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="scconsulprovider2" />
+        <module name="scconsulprovider1" />
+        <module name="scconsulconsumer" />
+        <module name="scconsulconfig" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="scconsulconfig" options="-parameters" />
+      <module name="scconsulconsumer" options="-parameters" />
+      <module name="scconsulparent" options="-parameters" />
+      <module name="scconsulprovider1" options="-parameters" />
+      <module name="scconsulprovider2" options="-parameters" />
+    </option>
+  </component>
+</project>
